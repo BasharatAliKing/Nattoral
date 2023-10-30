@@ -6,6 +6,7 @@
     <title>Nattoral</title>
     <!-- CSS Link Here-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/res.css">
     <!-- Icons link here-->
    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
@@ -26,10 +27,67 @@
 </head>
 <body>
     <!--Navbar-1 Starts here-->
+    <section id="res-menu">
+    </section>
+    <section id="res-menu-show" >
+      <ul class="responcive-menu">
+        <img src="./assets/images/cross.webp" class="rem-menu" alt="">
+        <li id="skincare">
+      Skin Care <i class="fa fa-angle-down"></i>
+         <ul class="dropdown down-skincare">
+            <li><a href="">Skin Care One</a></li>
+            <li><a href="">Skin Care Two</a></li>
+            <li><a href="">Skin Care Three</a>
+            </li>
+         </ul>
+        </li>
+        <li class="haircare">
+           Hair Care <i class="fa fa-angle-down"></i>
+            <ul class="dropdown down-haircare">
+                <li><a href="">Hair Care One</a></li>
+                <li><a href="">Hair Care Two</a></li>
+                <li><a href="">Hair Care Three</a></li>
+             </ul>
+        </li>
+
+        <li class="personalcare">
+            Personal Care <i class="fa fa-angle-down"></i>
+            <ul class="dropdown down-personalcare">
+                <li><a href="">Personal Care One</a></li>
+                <li><a href="">Personal Care Two</a></li>
+                <li><a href="">Personal Care Three</a></li>
+             </ul></li>
+        <li class="mom-care">
+            Mom & Baby Care <i class="fa fa-angle-down"></i>
+            <ul class="dropdown down-momcare">
+                <li><a href="">Mom & Baby Care One</a></li>
+                <li><a href="">Mom & Baby Care Two</a></li>
+                <li><a href="">Mom & Baby Care Three</a></li>
+             </ul>
+            </li>
+        <li class="brands">
+           Brands<i class="fa fa-angle-down"></i>
+            <ul class="dropdown down-brands">
+                <li><a href="">Brand One</a></li>
+                <li><a href="">Brand Two</a></li>
+                <li><a href="">Brand Three</a></li>
+             </ul>
+        </li>
+        <li class="ingredient">
+          By Ingredient<i class="fa fa-angle-down"></i>
+            <ul class="dropdown down-ingredient">
+                <li><a href="">Ingredient Care One</a></li>
+                <li><a href="">Ingredient Care Two</a></li>
+                <li><a href="">Ingredient Care Three</a></li>
+             </ul>
+        </li>
+    </ul>
+    </section>
     <section id="navbar-one">
         <div class="container">
             <div class="logo"><img src="./assets/images/Nattoral_Logo_Anatomy_833dbcee-678d-49a4-bea4-447478530240_300x.avif" alt=""></div>
-            <div class="search-box">
+            <div class="b">
+              <div class="search-box">
                 <a href="">All Category<i class="fa fa-chevron-down"></i></a>
                 <form action="">
                     <input class="search" type="text" placeholder="Search Your Product...">
@@ -58,12 +116,18 @@
             <div class="accounts">
                 <i class="fa-regular fa-user"></i>Accounts <i class="fa fa-angle-down"></i>
             </div>
+            </div>
 
         </div>
     </section>
     <!--Navbar-2 Starts Here-->
      <section id="navbar-two">
         <div class="container">
+          <div class="btn-show">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
             <ul class="menus">
                 <li>
                     <a href="">Skin Care <i class="fa fa-angle-down"></i></a>
@@ -177,18 +241,18 @@
             <button class="btn">View All</button>
            </div>
            <div class="items">
-            <div> <img src="./assets/images/rough-texture.jpg" alt="">
-             <h2>Rought Texture</h2></div>
-            <div> <img src="./assets/images/acne-scars.jpg" alt="">
-             <h2>Acne Scars</h2></div>
-            <div> <img src="./assets/images/skin-wrinkles-4925e10a7c5349b89e8299a0bab973bd.jpg" alt="">
-             <h2>Wrinkles and Lines</h2></div>
-            <div> <img src="./assets/images/dry-skin.jpg" alt="">
-             <h2>Dry and Dull skin</h2></div>
-            <div> <img src="./assets/images/hair-loss.jpg" alt="">
-             <h2>Hair Loss</h2></div>
-            <div> <img src="./assets/images/dandruff.jpg" alt="">
-             <h2>Dandruff</h2></div>
+           <div class="one"> <div> <img src="./assets/images/rough-texture.jpg" alt="">
+            <h2>Rought Texture</h2></div>
+           <div> <img src="./assets/images/acne-scars.jpg" alt="">
+            <h2>Acne Scars</h2></div></div>
+           <div class="two"> <div> <img src="./assets/images/skin-wrinkles-4925e10a7c5349b89e8299a0bab973bd.jpg" alt="">
+            <h2>Wrinkles and Lines</h2></div>
+           <div> <img src="./assets/images/dry-skin.jpg" alt="">
+            <h2>Dry and Dull skin</h2></div></div>
+           <div class="three"> <div> <img src="./assets/images/hair-loss.jpg" alt="">
+            <h2>Hair Loss</h2></div>
+           <div> <img src="./assets/images/dandruff.jpg" alt="">
+            <h2>Dandruff</h2></div></div>
            
            </div>
         </div>
@@ -215,6 +279,7 @@
     <section id="featured-products-items">
       <div class="container">
         <div class="menus">
+         <div class="a">
           <div class="card">
             <img src="./assets/images/gel.jpg" alt="">
           <div class="card-body">
@@ -247,6 +312,9 @@
             </div>
           </div>
           </div>
+
+         </div>
+         <div class="b">
           <div class="card">
             <img src="./assets/images/bio-derma.jpg" alt="">
           <div class="card-body">
@@ -279,38 +347,39 @@
             </div>
           </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/gel-2.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+         </div>
+         <div class="c"> <div class="card">
+          <img src="./assets/images/gel-2.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/dry-shampoo.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/dry-shampoo.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
+        </div>
+        </div></div>
 
         </div>
       </div>
@@ -345,6 +414,7 @@
         <div class="upper"><h1>New Arrivals</h1> <button class="btn">View All</button></div>
         <div class="menus">
           <div class="first">
+           <div class="a">
             <div class="card">
               <img src="./assets/images/sebiaclear-gel.jpg" alt="">
             <div class="card-body">
@@ -377,7 +447,8 @@
               </div>
             </div>
             </div>
-            <div class="card">
+           </div>
+            <div class="b"><div class="card">
               <img src="./assets/images/bioderma-2.jpg" alt="">
             <div class="card-body">
               <h4>Bioderma</h4>
@@ -408,75 +479,77 @@
                 <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
               </div>
             </div>
-            </div>
-            <div class="card">
-              <img src="./assets/images/gel-2.jpg" alt="">
-            <div class="card-body">
-              <h4>SebiaClear Gel</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-              <div class="rating">
-                <h5><span>500+ Sold</span></h5>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <h5>4.7(215)</h5>
+            </div></div>
+            <div class="c">
+              <div class="card">
+                <img src="./assets/images/gel-2.jpg" alt="">
+              <div class="card-body">
+                <h4>SebiaClear Gel</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+                <div class="rating">
+                  <h5><span>500+ Sold</span></h5>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <h5>4.7(215)</h5>
+                </div>
+                <div class="price">
+                  <div><h4>$5.75</h4></div>
+                  <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
+                </div>
               </div>
-              <div class="price">
-                <div><h4>$5.75</h4></div>
-                <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
               </div>
-            </div>
-            </div>
-            <div class="card">
-              <img src="./assets/images/dryshampoo-2.jpg" alt="">
-            <div class="card-body">
-              <h4>Dry Shampoo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-              <div class="rating">
-                <h5><span>500+ Sold</span></h5>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <h5>4.7(215)</h5>
+              <div class="card">
+                <img src="./assets/images/dryshampoo-2.jpg" alt="">
+              <div class="card-body">
+                <h4>Dry Shampoo</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+                <div class="rating">
+                  <h5><span>500+ Sold</span></h5>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <h5>4.7(215)</h5>
+                </div>
+                <div class="price">
+                  <div><h4>$5.75</h4></div>
+                  <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
+                </div>
               </div>
-              <div class="price">
-                <div><h4>$5.75</h4></div>
-                <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
               </div>
-            </div>
             </div>
 
           </div>
           <div class="second">
-            <div class="card">
-              <img src="./assets/images/sebiacleargel-2.jpg" alt="">
-            <div class="card-body">
-              <h4>SebiaClear Gel</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-              <div class="rating">
-                <h5><span>500+ Sold</span></h5>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <h5>4.7(215)</h5>
-              </div>
-              <div class="price">
-                <div><h4>$5.75</h4></div>
-                <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-              </div>
+           <div class="a"> <div class="card">
+            <img src="./assets/images/sebiacleargel-2.jpg" alt="">
+          <div class="card-body">
+            <h4>SebiaClear Gel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+            <div class="rating">
+              <h5><span>500+ Sold</span></h5>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <h5>4.7(215)</h5>
             </div>
+            <div class="price">
+              <div><h4>$5.75</h4></div>
+              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
             </div>
-            <div class="card">
-              <img src="./assets/images/difacoper-2.jpg" alt="">
-            <div class="card-body">
-              <h4>Difa Coper</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-              <div class="rating">
-                <h5><span>500+ Sold</span></h5>
-                <i class="fa-sharp fa-solid fa-star"></i>
-                <h5>4.7(215)</h5>
-              </div>
-              <div class="price">
-                <div><h4>$5.75</h4></div>
-                <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-              </div>
+          </div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/difacoper-2.jpg" alt="">
+          <div class="card-body">
+            <h4>Difa Coper</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+            <div class="rating">
+              <h5><span>500+ Sold</span></h5>
+              <i class="fa-sharp fa-solid fa-star"></i>
+              <h5>4.7(215)</h5>
             </div>
+            <div class="price">
+              <div><h4>$5.75</h4></div>
+              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
             </div>
-            <div class="card">
+          </div>
+          </div></div>
+            <div class="b"><div class="card">
               <img src="./assets/images/florga-3.jpg" alt="">
             <div class="card-body">
               <h4>Bioderma</h4>
@@ -507,8 +580,8 @@
                 <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
               </div>
             </div>
-            </div>
-            <div class="card">
+            </div></div>
+            <div class="c"><div class="card">
               <img src="./assets/images/bioderma-3.jpg" alt="">
             <div class="card-body">
               <h4>SebiaClear Gel</h4>
@@ -539,7 +612,7 @@
                 <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
               </div>
             </div>
-            </div>
+            </div></div>
 
           </div>
           
@@ -558,302 +631,303 @@
       <div class="container">
         <div class="upper"><h1>Best Sellings</h1> <button class="btn">View All</button></div>
         <div class="first">
-          <div class="card">
-            <img src="./assets/images/sebiaclear-gel.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+         <div class="a"> <div class="card">
+          <img src="./assets/images/sebiaclear-gel.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/difa-coper-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Difa Coper</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/difa-coper-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Difa Coper</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/bioderma-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Bioderma</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div></div>
+         <div class="b"> <div class="card">
+          <img src="./assets/images/bioderma-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Bioderma</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/florga-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Florga</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/florga-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Florga</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/gel-2.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div></div>
+         <div class="c"> <div class="card">
+          <img src="./assets/images/gel-2.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/dryshampoo-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Dry Shampoo</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/dryshampoo-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Dry Shampoo</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
+        </div>
+        </div></div>
 
         </div>
         <div class="first">
-          <div class="card">
-            <img src="./assets/images/sebiaclear-gel.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+         <div class="a"> <div class="card">
+          <img src="./assets/images/sebiaclear-gel.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/difa-coper-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Difa Coper</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/difa-coper-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Difa Coper</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/bioderma-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Bioderma</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div></div>
+         <div class="b"> <div class="card">
+          <img src="./assets/images/bioderma-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Bioderma</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/florga-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Florga</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/florga-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Florga</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/gel-2.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div></div>
+         <div class="c"> <div class="card">
+          <img src="./assets/images/gel-2.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/dryshampoo-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Dry Shampoo</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/dryshampoo-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Dry Shampoo</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
+        </div>
+        </div></div>
 
         </div>
         <div class="first">
-          <div class="card">
-            <img src="./assets/images/sebiaclear-gel.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+         <div class="a"> <div class="card">
+          <img src="./assets/images/sebiaclear-gel.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/difa-coper-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Difa Coper</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/difa-coper-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Difa Coper</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/bioderma-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Bioderma</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div></div>
+         <div class="b"> <div class="card">
+          <img src="./assets/images/bioderma-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Bioderma</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/florga-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Florga</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/florga-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Florga</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/gel-2.jpg" alt="">
-          <div class="card-body">
-            <h4>SebiaClear Gel</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div></div>
+         <div class="c"> <div class="card">
+          <img src="./assets/images/gel-2.jpg" alt="">
+        <div class="card-body">
+          <h4>SebiaClear Gel</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
-          <div class="card">
-            <img src="./assets/images/dryshampoo-2.jpg" alt="">
-          <div class="card-body">
-            <h4>Dry Shampoo</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
-            <div class="rating">
-              <h5><span>500+ Sold</span></h5>
-              <i class="fa-sharp fa-solid fa-star"></i>
-              <h5>4.7(215)</h5>
-            </div>
-            <div class="price">
-              <div><h4>$5.75</h4></div>
-              <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
-            </div>
+        </div>
+        </div>
+        <div class="card">
+          <img src="./assets/images/dryshampoo-2.jpg" alt="">
+        <div class="card-body">
+          <h4>Dry Shampoo</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, perferendis.</p>
+          <div class="rating">
+            <h5><span>500+ Sold</span></h5>
+            <i class="fa-sharp fa-solid fa-star"></i>
+            <h5>4.7(215)</h5>
           </div>
+          <div class="price">
+            <div><h4>$5.75</h4></div>
+            <div class="buy-now"><h5>Buy Now</h5> <i class="fa fa-circle-plus"></i> </div>
           </div>
+        </div>
+        </div></div>
 
         </div>
+       
       </div>
     </section>
     <!--send email us section here-->
@@ -967,5 +1041,6 @@
   ]
 });
     </script>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
